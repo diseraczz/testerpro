@@ -28,8 +28,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <script async custom-element="amp-ad" src="https://cdn.ampproject.org/v0/amp-ad-0.1.js"></script>
-
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3594548841511971"
+     crossorigin="anonymous"></script>
       <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
         <Tab label="Item One" {...a11yProps(0)} />
         <Tab label="Item Two" {...a11yProps(1)} />
